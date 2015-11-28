@@ -10,13 +10,12 @@ group :development do
   gem 'mysql2', '>= 0.3.13', '< 0.5'
 
 
-# Use SCSS for stylesheets
-
   gem 'hoe', '~> 3.14', '>= 3.14.2'
   gem 'rake-compiler', '~> 0.9.5'
   gem 'cucumber', '~> 2.1'
 end
 
+# Use SCSS for stylesheets
 group :assets do
   gem 'sass-rails', '~> 5.0'
   # Use Uglifier as compressor for JavaScript assets
